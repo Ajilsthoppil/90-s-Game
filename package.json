@@ -1,22 +1,28 @@
 {
-  "name": "kerala-90s-games",
+  "name": "kerala90sgames",
   "version": "1.0.0",
   "main": "index.ts",
   "dependencies": {
-    "expo": "~57.0.26",
-    "expo-status-bar": "~57.0.1",
+    "@react-native-async-storage/async-storage": "2.2.0",
     "react": "19.2.3",
-    "react-native": "0.86.3"
+    "react-native": "0.86.3",
+    "react-native-tts": "^4.1.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.25.0",
+    "@babel/runtime": "^7.25.0",
+    "@react-native-community/cli": "^15.0.0",
+    "@react-native-community/cli-platform-android": "^15.0.0",
+    "@react-native/babel-preset": "0.86.3",
+    "@react-native/metro-config": "0.86.3",
+    "@react-native/typescript-config": "0.86.3",
+    "@types/jest": "^30.0.0",
     "@types/react": "~19.2.2",
     "typescript": "~6.0.3"
   },
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "start": "react-native start",
+    "android": "react-native run-android"
   },
   "private": true
 }
